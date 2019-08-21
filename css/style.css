@@ -864,3 +864,16 @@ input.error {
 .accordion > .card .card-header {
   margin-bottom: -1px;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .parent { 
+    display: table;
+  }
+  .child1 {
+    display: table-footer-group;
+  }
+  .child2 {
+    display: table-header-group;
+  }
+}
